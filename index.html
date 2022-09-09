@@ -6,22 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="script.js"></script>
     <title>Trafalgar</title>
 </head>
 
 <body>
     <header>
-        <img src="assets/images/logo.png" alt="">
-        <nav>
+        <img class="logo" src="assets/images/trafalgar.png" alt="logo">
+        <nav class="links" id="headerNav">
             <a href="#">Home</a>
             <a href="#">Find a doctor</a>
             <a href="#">Apps</a>
             <a href="#">Testimonials</a>
             <a href="#">About us</a>
         </nav>
+        <img class="hamburger" src="/assets/images/hamburger.png" alt="menu" onclick="toggleMenu()">
     </header>
     <section class="firstPage">
-        <img class="startUpSpots" src="assets/images/spotsTop.png" alt="">
+        <img class="startUpSpots" src="assets/images/spotsTop.png" alt="spots">
         <div class="virtualHealthcare">
             <h1>Virtual healthcare for you</h1>
             <p>Trafalgar provides progressive, and affordable
@@ -29,10 +31,10 @@
                 for everyone</p>
             <button>Consult today</button>
         </div>
-        <img class="startUpIllustration" src="assets/images/virtual-healthcare.png" alt="">
+        <img class="startUpIllustration" src="assets/images/virtual-healthcare.png" alt="virtualHealthcare">
     </section>
     <section class="secondPage">
-        <img src="assets/images/healthcare.png" alt="">
+        <img src="assets/images/healthcare.png" alt="healthcare">
         <div class="leadingHealthcare">
             <h2>Leading healthcare providers</h2>
             <p>Trafalgar provides progressive, and affordable healthcare, accessible on
@@ -49,35 +51,35 @@
                 doctors you can consult with us which type of service is suitable for your health</p>
         </div>
         <div class="services">
-            <img class="blueSpot" src="assets/images/blue_spot.png" alt="">
+            <img class="blueSpot" src="assets/images/blue_spot.png" alt="blueSpot">
             <div class="searchDoctor">
-                <img src="assets/images/search.png" alt="">
+                <img src="assets/images/search.png" alt="search">
                 <h3>Search doctor</h3>
                 <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
             </div>
             <div class="pharmacy">
-                <img src="assets/images/pharmacy.png" alt="">
+                <img src="assets/images/pharmacy.png" alt="pharmacy">
                 <h3>Online pharmacy</h3>
                 <p>Buy your medicines with our mobile application with a simple delivery system</p>
             </div>
             <div class="consultation">
-                <img src="assets/images/consultation.png" alt="">
+                <img src="assets/images/consultation.png" alt="consultation">
                 <h3>Consultation</h3>
                 <p>Free consultation with our trusted doctors and get the best recomendations</p>
             </div>
             <div class="detailsInfo">
-                <img src="assets/images/details.png" alt="">
+                <img src="assets/images/details.png" alt="details">
                 <h3>Details info</h3>
                 <p>Free consultation with our trusted doctors and get the best recomendations</p>
             </div>
             <div class="emergency">
-                <img src="assets/images/emergency.png" alt="">
+                <img src="assets/images/emergency.png" alt="emergency">
                 <h3>Emergency care</h3>
                 <p>You can get 24/7 urgent care for yourself or your children and your
                     lovely family</p>
             </div>
             <div class="tracking">
-                <img src="assets/images/tracking.png" alt="">
+                <img src="assets/images/tracking.png" alt="tracking">
                 <h3>Tracking</h3>
                 <p>Track and save your medical history and health data </p>
             </div>
@@ -86,7 +88,7 @@
     </section>
     <footer>
         <div class="footerContent">
-            <img src="assets/images/trafalgar.png" alt="">
+            <img src="assets/images/trafalgar.png" alt="trafalgar">
             <nav>
                 <a href="#">Company</a>
                 <a href="#">Region</a>
